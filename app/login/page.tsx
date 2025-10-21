@@ -22,12 +22,12 @@ function LoginPage({
 
   const onSubmit = (data: LoginForm) => {
     console.log(data)
-		console.log(data);
-		console.log(data);
-		console.log(data);
-		console.log(data);
-		console.log(data);
-		console.log(data);
+    console.log(data)
+    console.log(data)
+    console.log(data) /// test
+    console.log(data)
+    console.log(data)
+    console.log(data)
 
     //data
     //map
