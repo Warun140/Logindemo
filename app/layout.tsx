@@ -1,14 +1,17 @@
+import AppProvider from "./utiles/context"
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <AppProvider>
+          {children}
+        </AppProvider>
       </body>
     </html>
-  );
+  )
 }
