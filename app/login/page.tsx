@@ -15,6 +15,11 @@ function LoginPage() {
 	const {register, handleSubmit, formState: { errors }} = useForm({resolver: zodResolver(loginSchema) });
 	const onSubmit = (data:LoginForm)=>{
 		console.log(data);
+		console.log(data);
+		console.log(data);
+		console.log(data);
+		console.log(data);
+		console.log(data);
 	}
   return (
     <div className={style.container}>
